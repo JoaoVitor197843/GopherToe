@@ -85,7 +85,7 @@ func main() {
 			}
 			play := types.Play{
 				Position: number,
-				Player: player,
+				Player:   player,
 			}
 			data, err := json.Marshal(play)
 			if err != nil {
